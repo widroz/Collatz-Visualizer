@@ -15,5 +15,5 @@ Numbers from 1 to (aprox.) 2⁶⁸ have been checked to reach 1.
 
 
 ## Why is it useful to study the paths "mod N"?
-![Path of even positioned numbers in second column mod 6](https://mega.nz/file/YfFmyKIT#v4YsJhQioZWfU8H85mrlI8HcQ73UoxyNl47McqiUo_g)
+![Path of even positioned numbers in second column mod 6](blob:https://mega.nz/d2e166fb-d13f-49bd-936d-94f27aa55eff)
 
