@@ -47,13 +47,13 @@ export default function Number({ number, inList, positionInList, currentColor })
 
   return (<div>
     {positionInList !== -1
-      ? <button className="btn" style={numberStyle} onClick={handleClickNumber}>{myNumber}
+      ? <button style={numberStyle} onClick={handleClickNumber}>{myNumber}
         <div style={{ fontSize: 16, color: 'black' }}>
           {positionInList}
         </div>
       </button>
 
-      : <button className="btn" style={numberStyle} onClick={handleClickNumber}>
+      : <button style={numberStyle} onClick={handleClickNumber}>
         {myNumber}
       </button>}
   </div>

@@ -28,16 +28,16 @@ export default function RowColumnsButtons({ rowSize, setRowSize, numberOfRows, s
     return (
         <div>
 
-            <div className="mx-5 my-5" style={{display:'flex', flexDirection:'row'}}>
+            <div style={{display:'flex', flexDirection:'row'}}>
        
                 <div style={{display:'flex', flexDirection:'row', marginRight:'4rem'}}>
-                <button className="btn btn-primary btn-lg" onClick={decrementRowSize}><h3>{MINUS_EMOJI} Column</h3></button>
-                <button className="btn btn-primary btn-lg" onClick={incrementRowSize}><h3>{PLUS_EMOJI} Column</h3></button>
+                <button onClick={decrementRowSize}><h3>{MINUS_EMOJI} Column</h3></button>
+                <button onClick={incrementRowSize}><h3>{PLUS_EMOJI} Column</h3></button>
                 </div>
 
                 <div style={{display:'flex', flexDirection:'row'}}>
-                <button className="btn btn-secondary btn-lg" onClick={decrementNumberOfRows}><h3>{MINUS_EMOJI} Row</h3></button>
-                <button className="btn btn-secondary btn-lg" onClick={incrementNumberOfRows}><h3>{PLUS_EMOJI} Row</h3></button>
+                <button onClick={decrementNumberOfRows}><h3>{MINUS_EMOJI} Row</h3></button>
+                <button onClick={incrementNumberOfRows}><h3>{PLUS_EMOJI} Row</h3></button>
                 </div>
             </div>
 
