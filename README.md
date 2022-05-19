@@ -31,12 +31,14 @@ Some powerful conclusions can be deduced from these images: if someone proves th
 
 These patterns dissapear or change when modifying the number of columns and can be "algebraically" studied, this tool helps interested people to visualize them.
 
-### Functionalities
+## Functionalities
 
 
 This application allows user to automatically draw Collatz's path for a given starting number. It is also possible to increment/decrement the number of rows and columns while conserving the path, making possible to check how a given path is "drawn" over different ["Rings"](https://en.wikipedia.org/wiki/Ring_(mathematics)).
 
 A number can also be clicked and "painted" of another color. This color dissapears when the number is not in the same row anymore or when clicked again.
+
+Althought this application can be used in a mobile phone, it is recommended to use a device with a larger screen like a 1920 x 1080.
 
 
 
