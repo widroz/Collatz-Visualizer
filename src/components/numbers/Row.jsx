@@ -58,8 +58,6 @@ export default function Row({first,rowSize, collatzList, currentColor}) {
     ))
   }
 
-
-
   return (
     <div  style={rowStyle}>
       {numbers

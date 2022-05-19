@@ -33,10 +33,6 @@ export default function Naturals() {
         return list
     }
 
-    function getCollatzPathLength(n) {
-        return getCollatzPath(n).length
-    }
-
     const drawCollatzPath = () => {
         setCollatzList(getCollatzPath(firstNumberCollatz))
     }
@@ -53,7 +49,6 @@ export default function Naturals() {
     useEffect(() => {
         setIndexesOfRows(getIndexesOfRows(numberOfRows))
     }, [rowSize, numberOfRows])
-
 
 
     function getGreatestFromList(list) {
