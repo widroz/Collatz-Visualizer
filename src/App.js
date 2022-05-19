@@ -1,6 +1,6 @@
 
 import Naturals from './components/numbers/Naturals';
-import "./styles.css";
+import './styles.css';
 
 
 function App() {
