@@ -1,14 +1,13 @@
 # Collatz Visualizer
 
-##Introduction
+## Introduction
 
-###[Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture)
+### [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture)
 
 In number theory, this hypotesis states that repeating two simple arithmetic operations over any natural number we will always eventually reach 1.
 
 The operations are:
 
-![Collatz function]
-(https://wikimedia.org/api/rest_v1/media/math/render/svg/ec22031bdc2a1ab2e4effe47ae75a836e7dea459)
+![Collatz function](https://wikimedia.org/api/rest_v1/media/math/render/svg/ec22031bdc2a1ab2e4effe47ae75a836e7dea459)
 
 
