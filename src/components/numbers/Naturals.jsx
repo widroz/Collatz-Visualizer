@@ -3,6 +3,7 @@ import RowColumnsButtons from '../controls/RowColumnsButtons'
 import Palette from '../controls/Palette'
 import Row from './Row'
 import NumberForm from '../controls/NumberForm'
+import Controls from '../controls/Controls'
 
 export default function Naturals() {
     const [currentColor, setCurrentColor] = useState('#FF0000')
@@ -13,10 +14,11 @@ export default function Naturals() {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
-            alignItems: 'flex-start',  
+            alignItems: 'flex-start',
+            marginLeft:'2rem',
     }
 
-    const [firstNumberCollatz, setFirstNumberCollatz] = useState(16)
+    const [firstNumberCollatz, setFirstNumberCollatz] = useState()
     const [collatzList, setCollatzList] = useState([])
 
     function getCollatzPath(n) {
@@ -29,6 +31,7 @@ export default function Naturals() {
             }
             list.push(n)
         }
+        console.log(list)
         return list
     }
 
@@ -67,9 +70,9 @@ export default function Naturals() {
     }
 
 
-    function renderNumbers(){
+    function renderMatrix(){
         return indexesOfRows.map((i) => (
-            <Row className="border border-5" key={i} first={i * rowSize + 1} rowSize={rowSize} index={i} collatzList={collatzList} currentColor={currentColor}></Row>
+            <Row key={i} first={i * rowSize + 1} rowSize={rowSize} index={i} collatzList={collatzList} currentColor={currentColor}></Row>
         ))
     }
 
@@ -78,17 +81,9 @@ export default function Naturals() {
         <>
             {indexesOfRows
 
-            ? <div >
-                <div style={matrixStyle}>
-                    <div style={{display:'flex', flexDirection:'row'}}>
-                <RowColumnsButtons numberOfRows={numberOfRows} setNumberOfRows={setNumberOfRows} rowSize={rowSize} setRowSize={setRowSize} ></RowColumnsButtons>
-                <NumberForm getGreatestFromList={getGreatestFromList} getCollatzPath={getCollatzPath} setFirstNumberCollatz={setFirstNumberCollatz} firstNumberCollatz={firstNumberCollatz} drawCollatzPath={drawCollatzPath}></NumberForm>
-                    </div>
-                <Palette setCurrentColor={setCurrentColor} currentColor={currentColor} />
-                </div>
-
-                <div style={matrixStyle}>{renderNumbers()}</div>
-                
+            ? <div>
+                <Controls currentColor={currentColor} setCurrentColor={setCurrentColor} numberOfRows={numberOfRows} setNumberOfRows={setNumberOfRows} rowSize={rowSize} setRowSize={setRowSize} firstNumberCollatz={firstNumberCollatz} setFirstNumberCollatz={setFirstNumberCollatz} drawCollatzPath={drawCollatzPath} getCollatzPath={getCollatzPath} getGreatestFromList={getGreatestFromList} ></Controls>
+                <div style={matrixStyle}>{renderMatrix()}</div>
             </div>
             
 

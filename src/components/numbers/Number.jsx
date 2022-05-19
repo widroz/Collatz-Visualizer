@@ -1,25 +1,11 @@
 import { React, useEffect, useState } from 'react'
-import { inListStyle, unclickedStyle } from './Styles'
+import { inListStyle, unclickedStyle } from '../Styles'
 
 export default function Number({ number, inList, positionInList, currentColor }) {
 
   const [myNumber, setMyNumber] = useState(number)
   const [numberStyle, setNumberStyle] = useState(unclickedStyle)
   const [clicked, setClicked] = useState(false)
-
-
-  function getCollatzPath(n) {
-    let list = [n]
-    while (n > 1) {
-      if (n % 2 === 0) {
-        n = n / 2
-      } else {
-        n = 3 * n + 1
-      }
-      list.push(n)
-    }
-    return list
-  }
 
   useEffect(() => {
     if (inList) {

@@ -1,6 +1,6 @@
 import { React,useState, useEffect  } from 'react'
 import Number from './Number'
-import { rowStyle } from './Styles'
+import { rowStyle } from '../Styles'
 
 export default function Row({first,rowSize, collatzList, currentColor}) {
 
