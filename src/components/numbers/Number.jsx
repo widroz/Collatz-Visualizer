@@ -6,6 +6,7 @@ export default function Number({ number, inList, positionInList, currentColor })
   const [myNumber, setMyNumber] = useState(number)
   const [numberStyle, setNumberStyle] = useState(unclickedStyle)
   const [clicked, setClicked] = useState(false)
+  const [thisNumberColor, setThisNumberColor] = useState()
 
   useEffect(() => {
     if (inList) {
@@ -29,12 +30,19 @@ export default function Number({ number, inList, positionInList, currentColor })
         backgroundColor: currentColor,
         color: 'white',
       })
+    
     setClicked(!clicked)
+
+    !clicked
+    ? setThisNumberColor(currentColor)
+    : setThisNumberColor('white')
   }
+
 
   useEffect(() => {
     setMyNumber(number)
   }, [number])
+
 
 
   return (<div>

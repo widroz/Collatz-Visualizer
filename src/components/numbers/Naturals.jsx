@@ -1,25 +1,23 @@
 import {React, useState, useEffect }  from 'react'
-import RowColumnsButtons from '../controls/RowColumnsButtons'
-import Palette from '../controls/Palette'
 import Row from './Row'
-import NumberForm from '../controls/NumberForm'
 import Controls from '../controls/Controls'
 
 export default function Naturals() {
     const [currentColor, setCurrentColor] = useState('#FF0000')
     const [numberOfRows, setNumberOfRows] = useState(10)
     const [rowSize, setRowSize] = useState(8)
-    const [indexesOfRows, setIndexesOfRows] = useState([]) //A matrix which contains the indexes of the rows (example: for rows =   
-    const matrixStyle={
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'flex-start',
-            marginLeft:'2rem',
-    }
+    const [indexesOfRows, setIndexesOfRows] = useState([])  
 
     const [firstNumberCollatz, setFirstNumberCollatz] = useState()
     const [collatzList, setCollatzList] = useState([])
+
+    const matrixStyle={
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'flex-start',
+        marginLeft:'2rem',
+}
 
     function getCollatzPath(n) {
         let list = [n]
@@ -58,7 +56,6 @@ export default function Naturals() {
 
 
 
-
     function getGreatestFromList(list) {
         let greatest = 0
         for (let i = 0; i < list.length; i++) {
@@ -80,14 +77,11 @@ export default function Naturals() {
     return (
         <>
             {indexesOfRows
-
-            ? <div>
+            ? <div style={{display:'flex', flexDirection:'column'}}>
                 <Controls currentColor={currentColor} setCurrentColor={setCurrentColor} numberOfRows={numberOfRows} setNumberOfRows={setNumberOfRows} rowSize={rowSize} setRowSize={setRowSize} firstNumberCollatz={firstNumberCollatz} setFirstNumberCollatz={setFirstNumberCollatz} drawCollatzPath={drawCollatzPath} getCollatzPath={getCollatzPath} getGreatestFromList={getGreatestFromList} ></Controls>
                 <div style={matrixStyle}>{renderMatrix()}</div>
             </div>
             
-
-
             : <div >Loading...</div>}
         </>
     )

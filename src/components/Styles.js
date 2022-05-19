@@ -9,7 +9,6 @@ export   const unclickedStyle = {
     color: 'black',
     fontSize: '2em',
     fontWeight: 'bold',
-    borderRadius: '50%',
     padding: '5px',
     margin: '5px',
     width: '100px',
@@ -22,18 +21,16 @@ export   const unclickedStyle = {
   }
   
   export const inListStyle = {
+    ...unclickedStyle,
     backgroundColor: 'green',
     color: 'white',
-    fontSize: '2em',
-    fontWeight: 'bold',
-    borderRadius: '50%',
-    padding: '5px',
-    margin: '5px',
-    width: '100px',
-    height: '100px',
-    textAlign: 'center',
+  }
+
+  export const matrixStyle={
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center',
-  }
+    alignItems: 'flex-start',
+    marginLeft:'2rem',
+}
+    

@@ -22,7 +22,6 @@ export default function Palette( {currentColor, setCurrentColor}) {
         '#e65100',
         '#bf360c',
         '#3e2723',
-        '#212121',
         '#000000',
     ]
 
@@ -31,7 +30,7 @@ export default function Palette( {currentColor, setCurrentColor}) {
         flexDirection: 'row',
         justifyContent: 'flex-start',
         alignItems: 'center',
-        margin: '2rem',
+        margin: '3rem',
     }
 
     const handleClick = (e) => {
@@ -41,7 +40,7 @@ export default function Palette( {currentColor, setCurrentColor}) {
     function renderPalette(){
         return colorList.map((color, index) => {
             return (
-                <div key={index} style={{backgroundColor: color, marginRight: '10px', minHeight:'2rem', minWidth:'2rem'}} onClick={handleClick}></div>
+                <div key={index} style={{backgroundColor: color, marginRight: '1rem', minHeight:'2rem', minWidth:'2rem'}} onClick={handleClick}></div>
             )
         })
     }
