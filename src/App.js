@@ -1,5 +1,7 @@
 
 import Naturals from './components/numbers/Naturals';
+import "./styles.css";
+
 
 function App() {
   return (
