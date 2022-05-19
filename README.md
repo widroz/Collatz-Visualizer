@@ -16,5 +16,5 @@ Numbers from 1 to (aprox.) 2⁶⁸ have been checked to reach 1.
 
 ## Why is it useful to study the paths "mod N"?
 EXPLANATION INCOMING!
-[image](https://github.com/widroz/Collatz-Visualizer/blob/main/images/2nd%20even%20mod%206.PNG)
+![image](https://github.com/widroz/Collatz-Visualizer/blob/main/images/2nd%20even%20mod%206.PNG)
 
