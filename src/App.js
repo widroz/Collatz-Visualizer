@@ -4,6 +4,7 @@ import Naturals from './components/numbers/Naturals';
 function App() {
   return (
     <div>
+      <BootstrapStyles />
       <Naturals ></Naturals>
     </div>
   );
