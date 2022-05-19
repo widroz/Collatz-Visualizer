@@ -33,9 +33,6 @@ export default function Naturals() {
         return list
     }
 
-    function getCollatzPathLength(n) {
-        return getCollatzPath(n).length
-    }
 
     const drawCollatzPath = () => {
         setCollatzList(getCollatzPath(firstNumberCollatz))

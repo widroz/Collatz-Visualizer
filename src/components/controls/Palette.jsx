@@ -1,8 +1,8 @@
-import { React, useEffect, useState } from 'react'
+import { React } from 'react'
 
 
 
-export default function Palette( {currentColor, setCurrentColor}) {
+export default function Palette( {setCurrentColor}) {
 
     const colorList= [
         '#b71c1c',
@@ -44,10 +44,6 @@ export default function Palette( {currentColor, setCurrentColor}) {
             )
         })
     }
-
-
-
-
 
   return (
         <div style={colorListStyle}>
