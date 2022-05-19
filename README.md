@@ -27,6 +27,8 @@ On the other hand, the rest of numbers in that column redirect to a number in th
 
 ![Second column even positions with 6 columns](https://github.com/widroz/Collatz-Visualizer/blob/main/images/2nd%20even%20mod%206.PNG)
 
+Some powerful conclusions can be deduced from these images: if someone proves that all values in first and fourth column eventually reach 1, then every number in second column also does.
+
 These patterns dissapear or change when modifying the number of columns and can be "algebraically" studied, this tool helps interested people to visualize them.
 
 ### Functionalities
