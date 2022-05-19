@@ -15,6 +15,13 @@ Numbers from 1 to (aprox.) 2⁶⁸ have been checked to reach 1.
 
 
 ## Why is it useful to study the paths "mod N"?
-EXPLANATION INCOMING!
-![image](https://github.com/widroz/Collatz-Visualizer/blob/main/images/2nd%20even%20mod%206.PNG)
+
+When visualizing natural numbers in N columns, we group them by their remainder.
+
+If we have 6 columns, 1 and 7 are in the first column because 1 % 6 = 7 % 6 = 1.
+
+We observe that with this number of columns, some patterns appear.
+
+Example: the even positions of the second column's next step is always a number in first column.
+![Second column even positions with 6 columns](https://github.com/widroz/Collatz-Visualizer/blob/main/images/2nd%20even%20mod%206.PNG)
 
