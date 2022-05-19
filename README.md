@@ -1,4 +1,4 @@
-# Collatz Visualizer
+# [Collatz Visualizer](https://widroz.github.io/Collatz-Visualizer/)
 
 ## What is [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture)?
 
