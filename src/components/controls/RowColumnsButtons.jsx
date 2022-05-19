@@ -31,13 +31,13 @@ export default function RowColumnsButtons({ rowSize, setRowSize, numberOfRows, s
             <div style={{display:'flex', flexDirection:'row'}}>
        
                 <div style={{display:'flex', flexDirection:'row', marginRight:'4rem'}}>
-                <button onClick={decrementRowSize}><h3>{MINUS_EMOJI} Column</h3></button>
-                <button onClick={incrementRowSize}><h3>{PLUS_EMOJI} Column</h3></button>
+                <button className="decrement-increment-button" onClick={decrementRowSize}><h3>{MINUS_EMOJI} Column</h3></button>
+                <button className="decrement-increment-button" onClick={incrementRowSize}><h3>{PLUS_EMOJI} Column</h3></button>
                 </div>
 
                 <div style={{display:'flex', flexDirection:'row'}}>
-                <button onClick={decrementNumberOfRows}><h3>{MINUS_EMOJI} Row</h3></button>
-                <button onClick={incrementNumberOfRows}><h3>{PLUS_EMOJI} Row</h3></button>
+                <button className="decrement-increment-button" onClick={decrementNumberOfRows}><h3>{MINUS_EMOJI} Row</h3></button>
+                <button className="decrement-increment-button" onClick={incrementNumberOfRows}><h3>{PLUS_EMOJI} Row</h3></button>
                 </div>
             </div>
 
