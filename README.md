@@ -8,7 +8,7 @@ The operations are:
 
 ![Collatz function](https://github.com/widroz/Collatz-Visualizer/blob/main/images/collatz%20function.png)
 
-Numbers from 1 to (aprox.) 2⁶⁸ have been checked to reach 1.
+Numbers from 1 to (aprox.) 2⁶⁸ have been confirmed to reach 1.
 
 
 
