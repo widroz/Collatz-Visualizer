@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Collatz-Visualizer/static/css/main.342f1737.css",
-    "main.js": "/Collatz-Visualizer/static/js/main.1c6fee61.js",
+    "main.css": "/Collatz-Visualizer/static/css/main.beb7c8b6.css",
+    "main.js": "/Collatz-Visualizer/static/js/main.e9276c64.js",
     "index.html": "/Collatz-Visualizer/index.html",
-    "main.342f1737.css.map": "/Collatz-Visualizer/static/css/main.342f1737.css.map",
-    "main.1c6fee61.js.map": "/Collatz-Visualizer/static/js/main.1c6fee61.js.map"
+    "main.beb7c8b6.css.map": "/Collatz-Visualizer/static/css/main.beb7c8b6.css.map",
+    "main.e9276c64.js.map": "/Collatz-Visualizer/static/js/main.e9276c64.js.map"
   },
   "entrypoints": [
-    "static/css/main.342f1737.css",
-    "static/js/main.1c6fee61.js"
+    "static/css/main.beb7c8b6.css",
+    "static/js/main.e9276c64.js"
   ]
 }
