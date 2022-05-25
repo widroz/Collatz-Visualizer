@@ -22,7 +22,7 @@ Example: half of the the second column number's next step is always a number in 
 
 On the other hand, the rest of numbers in that column redirect to a number in the fifth column (image below)
 
-![Second column]([https://github.com/widroz/Collatz-Visualizer/blob/main/images/2nd%20odd%20mod%206.PNG](https://github.com/widroz/Collatz-Visualizer/blob/main/images/2022-05-25%2017-02-07.gif)
+![Second column](https://github.com/widroz/Collatz-Visualizer/blob/main/images/2022-05-25%2017-02-07.gif)
 
 Some powerful conclusions can be deduced from these images: if someone proves that all values in first and fifth column eventually reach 1, then every number in second column also does.
 
