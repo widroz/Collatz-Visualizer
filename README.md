@@ -14,25 +14,21 @@ Numbers from 1 to (aprox.) 2⁶⁸ have been confirmed to reach 1.
 
 ## Why is it useful to study the paths "mod N"?
 
-When visualizing natural numbers in N columns, we group them by their remainder. If we have 6 columns, 1 and 7 are in the first column because 1 % 6 = 7 % 6 = 1.
+When visualizing natural numbers in N columns, we group them by their remainder. If we have 8 columns, 1 and 9 are in the first column because 1 % 8 = 9 % 8 = 1.
 
 We observe that with this (but not only this) number of columns, some patterns appear.
 
 Example: half of the the second column number's next step is always a number in the first column (image below)
 
-![Second column odd positions with 6 columns](https://github.com/widroz/Collatz-Visualizer/blob/main/images/2nd%20odd%20mod%206.PNG)
+On the other hand, the rest of numbers in that column redirect to a number in the fifth column (image below)
 
+![Second column]([https://github.com/widroz/Collatz-Visualizer/blob/main/images/2nd%20odd%20mod%206.PNG](https://github.com/widroz/Collatz-Visualizer/blob/main/images/2022-05-25%2017-02-07.gif)
 
-On the other hand, the rest of numbers in that column redirect to a number in the fourth column (image below)
+Some powerful conclusions can be deduced from these images: if someone proves that all values in first and fifth column eventually reach 1, then every number in second column also does.
 
-![Second column even positions with 6 columns](https://github.com/widroz/Collatz-Visualizer/blob/main/images/2nd%20even%20mod%206.PNG)
-
-Some powerful conclusions can be deduced from these images: if someone proves that all values in first and fourth column eventually reach 1, then every number in second column also does.
-
-These patterns dissapear or change when modifying the number of columns and can be "algebraically" studied, this tool helps interested people to visualize them.
+These patterns dissapear or change when modifying the number of columns and can be "algebraically" studied but this tool helps interested people to visualize them.
 
 ## Functionalities
-
 
 This application allows user to automatically draw Collatz's path for a given starting number. It is also possible to increment/decrement the number of rows and columns while conserving the path, making possible to check how a given path is "drawn" over different ["Rings"](https://en.wikipedia.org/wiki/Ring_(mathematics)).
 
