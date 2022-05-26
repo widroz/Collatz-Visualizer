@@ -1,6 +1,6 @@
 # [Collatz Visualizer](https://widroz.github.io/Collatz-Visualizer/)
 
-**Althought this application can be used in a mobile phone, it is highly recommended to use a device with a larger screen like a tablet or PC.**
+**(Althought this application can be used in a mobile phone, it is highly recommended to use a device with a larger screen like a tablet or PC).**
 
 ## What is [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture)?
 
@@ -37,7 +37,6 @@ This application allows user to automatically draw Collatz's path for a given st
 ![Paths](https://github.com/widroz/Collatz-Visualizer/blob/main/images/2022-05-25%2017-10-26%20(1).gif)
 
 A number can also be clicked and "painted" of another color. This color dissapears when the number is not in the same row anymore or when clicked again.
-Althought this application can be used in a mobile phone, it is recommended to use a device with a larger screen like a tablet or PC.
 
 
 
