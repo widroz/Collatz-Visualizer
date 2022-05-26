@@ -1,6 +1,6 @@
 # [Collatz Visualizer](https://widroz.github.io/Collatz-Visualizer/)
 
-**( Althought this application can be used in a mobile phone, it is highly recommended to use a device with a larger screen like a tablet or PC )**
+**This application can be used in a mobile phone, but it is highly recommended to use a device with a larger screen like a tablet or PC**
 
 ## What is [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture)?
 
