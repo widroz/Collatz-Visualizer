@@ -1,5 +1,7 @@
 # [Collatz Visualizer](https://widroz.github.io/Collatz-Visualizer/)
 
+**Althought this application can be used in a mobile phone, it is highly recommended to use a device with a larger screen like a tablet or PC.**
+
 ## What is [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture)?
 
 In number theory, this hypotesis states that repeating two simple arithmetic operations over any natural number we will always eventually reach 1.
